@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #131313;
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: snow;
+            text-align: center;
+        }
+        .kurs{
+          height: 500px;
+        }
+        .regis{
+            background-color: aliceblue;
+            margin: 20px;
+            padding: 50px;
+        }
+        ::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 5px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container"><br>
+        <h1 class="center">Bizning kurslar</h1><br><br>
+        <div class="row">
+          <div class="col-lg-3 col-xs-12 col-md-6 my-2">
+            <div class="card kurs">
+                <img src="images/Graph.jpg" class="card-img-top" alt="..." style="height: 270px">
+                <div class="card-body" style="height:270px ;overflow-y:scroll;
+                scrollbar-width: thin;">
+                  <h5 style="color:bLack">Grafik dizayn</h5><br>
+                  <p>Bu kursda siz :</p>
+                  <ul>
+                    <li>Photoshop</li>
+                    <li>Adode Illustrator</li>
+                    <li>Crel draw</li>
+                    <li>SMM dizayn</li>
+                    <li>Murakkab Photomonipulyatsiya</li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+            <div class="col-lg-3 col-xs-12 col-md-6 my-2">
+                <div class="card kurs">
+                    <img src="images/smm.png" class="card-img-top" alt="..." style="height: 270px">
+                    <div class="card-body" style="height:270px ;overflow-y:scroll;
+                    scrollbar-width: thin;">
+                      <h5 style="color:bLack">SMM</h5><br>
+                      <p>SMM kursida siz:</p>
+                      <ul>
+                        <li>SMM asoslari</li>
+                        <li>Strategiya va kontent reja tuzish</li>
+                        <li>Effektiv maqola yozish</li>
+                        <li>Target qilish</li>
+                        <li>Trendlardan o'rinli foydalanish</li>
+                        <li>Instagram va facebook ijtimoiy tarmoqlarini to'g'ri yuritish</li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-xs-12 col-md-6 my-2">
+                <div class="card kurs">
+                    <img src="images/front.jpeg" class="card-img-top" alt="..." style="height: 270px">
+                    <div class="card-body" style="height:270px ;overflow-y:scroll;
+                    scrollbar-width: thin;">
+                      <h5 style="color:bLack">Frontend</h5><br>
+                      <p>Bu kursda siz :</p>
+                      <ul>
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>Figma</li>
+                        <li>Java Script</li>
+                        <li>Chuqurlashtirilgan Java Script</li>
+                        <li>React JS</li>
+                        <li>20 dan ortiq murakkab dasturlar o`rgatiladi</li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-xs-12 col-md-6 my-2">
+                <div class="card kurs">
+                    <img src="images/java.jpeg" class="card-img-top" alt="..." style="height: 270px">
+                    <div class="card-body" style="height:270px ;overflow-y:scroll;
+                    scrollbar-width: thin;">
+                      <h5 style="color:bLack">Backend</h5><br>
+                      <p>Bu kursda siz :</p>
+                      <ul>
+                        <li>Java - basic, OOP, Advanced</li>
+                        <li>Database - SQL, Postgresql, Functions, Sprint</li>
+                        <li>Framework - SpringBoot, Datarest, Security</li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+      </div>
+      <div class="col-md-6 col-sm-12" id="clear"  style="margin:20px auto;">
+        <div class="regis">
+            <h1 style="color: #131313;">Ro`yxatdan o`tish</h1><hr>
+            <form action="#" class="form" autocomplete="off">
+              <label style="margin-bottom: 10px; cursor: pointer;" for="fullName">Ism sharifingizni kiriting 👇</label>
+              <input class="form-control" required id="fullName" type="text" placeholder="Ism-sharifingiz"><br>
+              <label style="margin-bottom: 10px; cursor: pointer;" for="phoneNumber">Telefon raqamingizni kiriting 👇</label>
+              <input class="form-control" required id="phoneNumber" type="phone" placeholder="Telefon"><br>
+              <label style="margin-bottom: 10px; cursor: pointer;" for="selectedCourse">O'z yo'nalishingizni tanlang 👇</label>
+              <select class="form-select" id="selectedCourse" aria-label="Default select example">
+                <option value="Grafik dizayn" selected>Grafik dizayn</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="SMM">SMM</option>
+              </select><br>
+              <button type="submit" class="btn btn-primary" style="width:100%">Yuborish</button>
+            </form>
+        </div>
+
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+        <script>
+
+          const form = document.querySelector('.form');
+
+          function sendMessage(e) {
+
+            e.preventDefault();
+
+            fullName = document.querySelector('#fullName'),
+            phoneNumber = document.querySelector('#phoneNumber');
+            selectedCourse = document.querySelector('#selectedCourse');
+
+            Email.send({
+              SecureToken: "1a417861-dc2d-4850-9826-22770a2e8c2f",
+              To: "ahmadaliqambaraliyev7@gmail.com",
+              From: "testuchun1998@gmail.com",
+              Subject: "Hello hey look at the sending message this is Register for online course",
+              Body: " <h1 style=\"text-align: center; width=\"100%\"\> Assalamu Alaykum Kurs uchun Yangi O'quvchi</h1> <table border=\"1\" width=\"100% \" style=\"border- collapse: collapse; background - color: springgreen;\">  <tr>  <td style=\"width: 50%;\">FISH :  </td> <td style=\"width: 50%;\">" + fullName.value + "</td> </tr> <tr> <td style=\"width: 50%;\">Tel : </td> <td style=\"width: 50%;\">" + phoneNumber.value + "</td> </tr> <tr> <td style=\"width: 50%;\">Tanlangan Kurs : </td> <td style=\"width: 50%;\">" + selectedCourse.value + "</td> </tr> </table>"
+            }).then(            
+              document.getElementById("clear").innerHTML = " <h1> Siz Muvaffaqiyatli ro'yxatdan o'tdingiz siz bilan tez orada aloqaga chiqamiz </h1> "
+            );
+          }
+          form.addEventListener('submit', sendMessage);
+        </script>
+</body>
+</html>
